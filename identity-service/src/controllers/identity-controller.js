@@ -5,7 +5,7 @@ const { validateRegistration } = require('../utils/validation')
 
 //user registration
 
-const registeruser = async(req,res)=>{
+const registerUser = async(req,res)=>{
     logger.info('Registration endpoint hit...')
 
     try {
@@ -86,4 +86,4 @@ const registeruser = async(req,res)=>{
 
 
 
-module.exports = { registeruser }
+module.exports = { registerUser }
